@@ -44,9 +44,9 @@ Voici une ascii table
 
 | Nibble | Byte | Half word/ word | Double Word | Quad word |
 |--------|------|-----------------|-------------|-----------|
-|haf of a byte/ 4bits  | 1byte / 8bits | 2bytes, 16bits | 4bytes, 32 bits | 8bytes, 64bits |
+|half of a byte/ 4bits  | 1byte / 8bits | 2bytes, 16bits | 4bytes, 32 bits | 8bytes, 64bits |
 
-Pour l'histoire époque il y avait des architectures de 16 bits, on disait donc a cette époque de  16bits == **word**. Peut après il y eu eu des architecture de 32bits et on se mit également à associer 32bits == **word**.
+Pour l'histoire, à époque il y avait des architectures de 16 bits, on disait donc a cette époque de  16bits == **word**. Peut après il y eu eu des architecture de 32bits et on se mit également à associer 32bits == **word**.
 
 Ainsi il y a "chevauchement":
 
@@ -63,6 +63,7 @@ Pour gérer les nombres négatifs en binaire on utilse l'approche des deux compl
 Ce qui fait que les opérations arithmétique n'ont pas a considerer les signes car de toute façon chaque représentation sur n bits a à la fois une équivalence positive et une négative en base 10.
 
 *NOTONS TRÈS BIEN QUE:* C'est d'une maniere ou d'une autre le programmeur qui spécifie qu'un représentation binaire est le complémentaire positif ou le négatif.
+
 En C par exemple:
 
 ```
